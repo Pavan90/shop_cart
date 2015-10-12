@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my code goes here*/
+body {
+background-color: beige;
+}
+
+header {
+background-color: aquamarine;
+    height: 20em;
+}
+
+header {
+-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+/*--------content-------------*/
+#content {
+font-family: sans-serif;
+    font-size: 3.5em;
+    color: burlywood;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+/*---------input div element-------------*/
+#input {
+margin-left: 22em;
+    margin-top: 5px;
+}
+
+
+
+#input > input{
+width: 24em;
+    height:3em; 
+    text-align: center;
+    color: coral;
+
+}
+#input > button {
+background-color: cornflowerblue;
+    border: none;
+    width: 4em;
+    height: 3.5em;
+
+}
+
+/*---main div----*/
+
+.main{
+  max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----image style-----*/
+
+#image {
+    margin-left: 28em;;
+    width :200px;
+    height:200px;
+}
+    
+/*-------dust styles here-------------*/
+.dust {
+
+height: 15px;
+    width: 15px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    cursor: pointer;
+    float: left;
+    background: url("https://cdn0.iconfinder.com/data/icons/elite-general/513/trash-can-512.png") no-repeat;
+-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.dust:hover {
+display: block;
+}
+
+    /*---------------notification-------------------*/
+.notification {
+	height: 20px;
+	width: 20px;
+	position: relative;
+	top:5px;
+	right: 16px;
+	cursor: pointer;
+	float: right;
+	background: url("https://cdn3.iconfinder.com/data/icons/line-icons-large-version/64/bell-512.png") no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;	
+
+}
+
+
+.checkmark {
+	height: 20px;
+	width: 20px;
+	position: relative;
+	right: 16px;
+	top:5px;
+	cursor: pointer;
+	float: right;
+	background: url('https://cdn0.iconfinder.com/data/icons/command-buttons/512/Check-512.png') no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;	
+    text-decoration: line-through;
+}
+
+.cross {
+	text-decoration: line-through;
+	opacity: .5;
+}
+
+/*--------lists styles--------*/
+
+
+
